@@ -59,6 +59,26 @@ export default {
 		zIndex: {
 			type: Number,
 		},
+		strokeColor: {
+			type: String,
+			default: '#FF0000',
+		},
+		strokeOpacity: {
+			type: Number,
+			default: 0.8,
+		},
+		strokeWeight: {
+			type: Number,
+			default: 2,
+		},
+		fillColor: {
+			type: String,
+			default: '#FF0000',
+		},
+		fillOpacity: {
+			type: Number,
+			default: 0.35,
+		}					
 	},
 
 	watch: {
